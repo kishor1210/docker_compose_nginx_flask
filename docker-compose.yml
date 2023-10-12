@@ -15,9 +15,9 @@ services:
   flask:
     build:
       context: ./flask  # The path to the directory containing your Flask Dockerfile
-    container_name: flask
+    #container_name: flask
     volumes:
       - ./flask:/app
-    ports:
-      - "5000:5000"
+    #ports:
+    #  - "5000:5000"
 
